@@ -41,25 +41,30 @@ _Entered `Production` as the tag value to classify the DC01 virtual machine unde
 
 ![Type Production and press Enter](Screenshots/Name%20and%20Value.png)
 
-### Step 6: Confirm Tag Input
-The tooltip prompts to press Enter after typing the value, confirming the tag entry.
-![Select Resource](Screenshots/Apply.png)
+### Step 6: Click Apply  
+_Saved the tag `Environment = Production` to the DC01 virtual machine by clicking “Apply,” confirming the configuration and inherited tag visibility._
 
-### Step 7: Review Tag Summary
-The interface shows the tag pair Environment = Development ready to be applied.
-![Select Resource](Screenshots/Go%20HomeScreen.png)
+![Click Apply](Screenshots/Apply.png)
 
-### Step 8: Apply Tag
-Clicked “Apply” to save the tag to the WEB01 VM, making it part of the resource metadata.
-![Select Resource](Screenshots/Tag%20other%20Resource.png)
+### Step 7: Go Homescreen  
+_Returned to the Azure portal homepage to reset the tagging view and prepare for the next resource selection._
 
-### Step 9: Validate Tag Assignment
-Confirmed that the tag was successfully added and now appears in the resource’s tag list.
-![Select Resource](Screenshots/Click%20tags%20on%20VM.png)
+![Go Homescreen](Screenshots/Go%20HomeScreen.png)
 
-### Step 10: Repeat for Other Resources
-Prepared to replicate tagging across other VMs and resources for consistent metadata management.
-![Select Resource](Screenshots/Tag%20Name%20and%20Vlaue%20Fields.png)
+###  Step 8: Click WEB01  
+_Selected “WEB01” from the Azure portal homepage resource list to begin tagging configuration for the development environment._
+
+![Click WEB01 ](Screenshots/Tag%20other%20Resource.png)
+
+###  Step 9: Click Tags  
+_Opened the “Tags” blade from the WEB01 virtual machine overview to begin assigning environment metadata._
+
+![Click Tags](Screenshots/Click%20tags%20on%20VM.png)
+
+### Step 10: Type Development and press Enter  
+_Entered `Development` as the tag value to classify the WEB01 virtual machine under the development environment._
+
+![Type Development and press Enter](Screenshots/Tag%20Name%20and%20Vlaue%20Fields.png)
 
 ###  Step 11: Click Apply  
 _Saved the tag `Environment = Development` to the WEB01 virtual machine by clicking “Apply,” finalizing the metadata assignment._
